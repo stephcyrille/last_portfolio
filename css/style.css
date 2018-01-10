@@ -1,0 +1,226 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'verdana';
+    font-size: 14px;
+}
+ .noir{
+    background-color: #008060;
+    transition: .8s;
+ }
+
+
+.navbar{
+    padding-top: 60px;
+    background-color: rgba(0,0,0,0);
+    height: 100px;
+    transition: 1.5s;
+}
+
+.navbar-inverse{
+    border-color: rgba(0,0,0,0);
+}
+
+.navbar-brand{
+    text-transform: uppercase;
+}
+.navbar-collapse.collapse ul li a{
+    text-transform: uppercase;
+    color: #fff;
+}
+.navbar-collapse.collapse ul li a:hover{
+    transition: .3s;
+}
+.navbar-collapse.collapse ul li:hover{
+    border-radius: 15px;
+    transition: .1s;
+}
+.navbar-collapse.collapse ul li a:hover{
+    color: #e6e600;
+    font-size: 15px;
+    transition: .5s;
+    border-bottom: 2px solid #e6e600;
+    border-radius: 10px;
+}
+
+
+header{
+    padding: 0;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: bisque;
+    overflow: hidden;
+}
+
+.header-bg{
+    position: absolute;
+    width: 100%;
+    height: 200%;
+    background-image: url('../img/1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+
+
+
+
+.header{
+    padding: 40px;
+    margin-top: 200px;
+    background-color: rgba(0,153,51,0.7);
+    border-radius: 20px;
+    box-shadow: 2px 1px 7px rgba(0,0,0,0.6);
+    font-size: 17px;
+}
+
+.presentation{
+    color: #fff;
+}
+
+.little-auteur{
+    display: none;
+}
+#auteur{
+    width: 75%;
+    border: 6px solid rgba(255,255,255,0.2);
+}
+
+.social img{
+    padding: 2px;
+    width: 30px;
+    display: inline;
+}
+
+.social a:hover{
+    text-decoration: none;
+}
+.id_social{
+    color: #fff;
+    transition: .5s;
+}
+.id_social:hover{
+    color: #e6e600;
+    transition: .6s;
+    padding-left: 10px;
+}
+
+.general h2{
+    text-align: center;
+    font-size: 40px;
+}
+.general{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #00b386;
+    color: #fff;
+    font-size: 17px;
+    }
+
+
+.certifications h2{
+    text-align: center;
+    font-size: 40px;
+}
+.certifications{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    margin-left: 0px;
+    margin-right: 0px;
+    color: rgba(0,0,0,0.8);
+}
+
+.cadre{
+    padding: 10px;
+
+}
+
+
+footer p{
+    font-size: 17px;
+}
+
+
+
+
+
+@media screen and (max-width:767px){
+    .navbar{
+        padding-top: 0px;
+        height: 70px;
+    }
+    .navbar-brand{
+        padding: 10px;
+        margin-left: 9px;
+        margin-top: 9px;
+    }
+    
+    .ass{
+        color: #fff;
+    }
+    .ass:hover{
+        color: #f1b1bf;
+    }
+    .navbar-inverse .navbar-toggle{
+        border: 1px solid rgba(255,255,255,0.5);
+    }
+    .navbar-inverse .navbar-toggle:focus{
+        background-color: rgba(99,98,164,0.5);
+        transition: .3s;
+    }
+    .navbar-inverse .navbar-toggle:hover{
+        background-color: rgba(99,98,164,0);
+        border-color: rgba(99,98,164,0);
+        transition: .4s;
+    }
+    .navbar-nav {
+        margin: 0px -0px;
+    }
+    .navbar-collapse {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .navbar-collapse.collapse.in{
+        background-color: rgba(255,0,0,0.1);
+    }
+    .navbar-collapse.collapse.in ul li a{
+        color: #fff;
+        text-align: center;
+    }
+    .navbar-collapse.collapse.in ul li{
+        border-bottom: 1px solid rgba(0,0,0,0.5);
+        background-color: rgba(255,0,0,0.2);
+        transition: .4s;
+    }
+    .navbar-collapse.collapse.in ul li:hover{
+        background-color: rgba(99,98,164,0.3);
+        border-radius: 0px;
+        transition: .3s;
+    }
+    .navbar-collapse.collapse.in ul li a:hover{
+        color: #fff;
+    }
+
+
+
+    .header{
+        display: none;
+    }
+
+    .little-auteur{
+        margin-top: 80px;
+        width: 100%;
+        height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        border: 5px solid #008060
+    }
+}
+
