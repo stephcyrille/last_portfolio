@@ -82,6 +82,9 @@ header{
     color: #fff;
 }
 
+.spy{
+    display: none;
+}
 .little-auteur{
     display: none;
 }
@@ -221,6 +224,15 @@ footer p{
         margin-right: auto;
         display: block;
         border: 5px solid #008060
+    }
+    .spy{
+        display: block;
+        color: #fff;
+        text-align: center;
+    }
+    .spy span{
+        font-size: 18px;
+        font-weight: bold;
     }
 }
 
