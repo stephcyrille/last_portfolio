@@ -1,0 +1,71 @@
+.wrapper{
+  position: relative;
+  margin-top: 50px;
+  margin-left: 45%;
+  margin-right: 92px;
+}
+
+.wrapper:before {
+  content: '';
+  position: fixed;
+  left: 45%;
+  right: 92px;
+  top: 0;
+  height: 70px;
+  background: #6c757d;
+  z-index: 13;
+  width: 100%;
+}
+
+.block-wrapper-image{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 45%;
+  height: 100%;
+  background: #6c757d;
+}
+
+.background-circle-effect{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #68e0cf;
+  clip-path: circle(75% at 10% 45%);
+  -webkit-clip-path: circle(75% at 10% 45%);
+}
+
+.block-bckg-image{
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('https://myour-jekyll.netlify.app/assets/img/girl3.jpg');
+}
+
+
+/* Small devices (landscape phones, 576px and up) */
+
+@media (max-width: 720px){
+  .wrapper:before {
+    content: unset;
+  }
+  .block-wrapper-image {
+    height: 450px;
+    position: relative;
+    width: 100%;
+  }
+  .background-circle-effect {
+    clip-path: circle(100% at 50% 0%);
+    -webkit-clip-path: circle(100% at 50% 0%);
+  }
+}

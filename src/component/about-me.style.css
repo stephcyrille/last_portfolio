@@ -1,0 +1,100 @@
+.sectionMboutMe{
+  height: 644px;
+  color: white;
+  
+  position: relative;
+  overflow: hidden;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  border-bottom: 1px solid #585d65;
+  z-index: 12;
+
+  margin: 0;
+  padding-bottom: 0;
+  overflow: visible;
+  height: 100vh;
+  z-index: 11;
+}
+
+.titleName{
+  margin: 100px 0 25px -11vw;
+  padding: 2.2vw 5.2vw;
+  font-size: 4.2vw;
+  line-height: 1.2;
+  font-weight: 800;
+  /* color: #fff; */
+  color: #585d65;
+  /* background: #6c757d; */
+  background: #fff;
+  word-break: break-word;
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+  border-radius: 264px;
+  -moz-border-radius: 264px;
+  -webkit-border-radius: 264px;
+  -khtml-border-radius: 264px;
+}
+
+.sectionMboutMe h4{
+  margin-bottom: 15px;
+  font-size: 28px;
+}
+
+.sectionMboutMe p{
+  text-align: justify;
+  font-size: 16px;
+}
+
+.sectionMboutMe .logoSocial {
+  background-color: #42454b;
+  padding: 15px;
+  display: inline-block;
+  border-radius: 10px;
+}
+
+.sectionMboutMe .logoSocial a{
+  color: white;
+  margin-right: 15px;
+  font-size: 18px;
+  transition: ease-in;
+  transition-duration: 0.3s;
+  font-size: 22px;
+}
+
+.sectionMboutMe .logoSocial a:hover{
+  color: #4476da;
+  transition: ease-out;
+  transition-duration: 0.4s;
+}
+
+
+
+@media (max-width: 720px){
+  .wrapper{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .sectionMboutMe {
+    margin: 0;
+    padding-top: 0;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 70px;
+    height: auto !important;
+    text-align: center;
+  }
+
+  .titleName{
+    margin: unset;
+    margin-top: -120px;
+    margin-bottom: 20px;
+    padding: 30px 25px;
+    width: auto;
+    font-size: 30px;
+  }
+}

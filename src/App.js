@@ -3,7 +3,7 @@ import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import './App.css';
 import { Header } from './component/Header';
-import { Home } from './pages/Home';
+import { Home } from './pages/home/Home';
 
 
 function App() {
@@ -20,8 +20,8 @@ function App() {
   }, []);
 
   return (
-    <div>
-      <Particles
+    <div className="bg-secondary">
+      {/* <Particles
               id="tsparticles"
               init={particlesInit}
               loaded={particlesLoaded}
@@ -97,11 +97,11 @@ function App() {
                   },
                   detectRetina: true,
               }}
-      />
-      <div className="container py-5 position-relative">
+      /> */}
+      {/* <div className=""> */}
         <Header/>
         <Home />
-      </div>
+      {/* </div> */}
     </div>
   );
 }

@@ -1,12 +1,13 @@
 import React, { useState } from 'react'
-import picture from '../assets/images/profile.jpg'
+import picture from '../../assets/images/profile.jpg'
 import { faGithub, faLinkedin, faTwitter, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faQuoteLeft, faQuoteRight, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Image from 'react-bootstrap/Image'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './home.style.css';
+import { AboutMe } from '../../component/AboutMe';
 
 export const Home = () => {
   const [count, setCounter] = useState(125);
@@ -14,25 +15,20 @@ export const Home = () => {
   let githubTitle = 'Me trouver sur Github';
 
   return (
-    <div className="py-4 px-3">
-      <Row>
-        <Col xs="12" lg="4">
-          <Row className='shadow'>
-            <Image src={picture} fluid alt='My profile view' className='px-0' />
-            <div className='text-center bg-white py-2'>
-              <h4>Mebenga Atanga Stéphane C.</h4>
-              <span>Software Engineer</span>
-              <p className='logoSocial d-line'>
-                <a href={githubUrl} title={githubTitle} target='new'><FontAwesomeIcon icon={faGithub} /></a>&nbsp;
-                <FontAwesomeIcon icon={faLinkedin} /> &nbsp;
-                <FontAwesomeIcon icon={faTwitter} /> &nbsp;
-                <FontAwesomeIcon icon={faGoogle} />
-              </p>
-            </div>
-          </Row>
-        </Col>
-        <Col xs="12" lg="8" className="text-center py-3">
-          <Row className='bg-white pt-4'>
+    // <div className="py-4 px-3">
+    <div>
+      <div className='wrapper'>
+        <div className="block-wrapper-image">
+          <div className='background-circle-effect'>
+            <div className='block-bckg-image' />
+          </div>
+        </div>
+        
+        <AboutMe />
+
+
+        <div className="section-about-me">
+          <Row className='text-white pt-4'>
             <h1 className='mb-4'>A propos de moi</h1>
             <p>
               <FontAwesomeIcon icon={faQuoteLeft} /> &nbsp;
@@ -40,12 +36,21 @@ export const Home = () => {
               <FontAwesomeIcon icon={faQuoteRight} /> 
             </p>
 
+            <h4>Mebenga Atanga Stéphane C.</h4>
+              <span>Software Engineer</span>
+              <p className='logoSocial d-line'>
+                <a href={githubUrl} title={githubTitle} target='new'><FontAwesomeIcon icon={faGithub} /></a>&nbsp;
+                <FontAwesomeIcon icon={faLinkedin} /> &nbsp;
+                <FontAwesomeIcon icon={faTwitter} /> &nbsp;
+                <FontAwesomeIcon icon={faGoogle} />
+              </p>
+
             <h3 className="mt-4">Rate my portfolio there there</h3>
 
             <Container className='py-3'>
               <Row className="justify-content-md-center mb-4">
                 <Col xs lg="2">
-                  <button type="button" class="btn btn-info rounded-circle">
+                  <button type="button" className="btn btn-info rounded-circle">
                     <FontAwesomeIcon 
                       icon={faChevronUp}
                       onClick={()=> {
@@ -70,8 +75,12 @@ export const Home = () => {
               </Row>
             </Container>
           </Row>
-        </Col>
-      </Row>
+        </div>
+
+
+
+
+      </div>
     </div>
   )
 }
