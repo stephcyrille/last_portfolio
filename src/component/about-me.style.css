@@ -19,7 +19,7 @@
 }
 
 .titleName{
-  margin: 100px 0 25px -11vw;
+  margin: 100px 0 45px -11vw;
   padding: 2.2vw 5.2vw;
   font-size: 4.2vw;
   line-height: 1.2;
@@ -39,7 +39,9 @@
 
 .sectionMboutMe h4{
   margin-bottom: 15px;
-  font-size: 28px;
+  font-size: 22px;
+  color: #ff3939;
+  text-transform: uppercase;
 }
 
 .sectionMboutMe p{
@@ -64,7 +66,7 @@
 }
 
 .sectionMboutMe .logoSocial a:hover{
-  color: #4476da;
+  color: #da4444;
   transition: ease-out;
   transition-duration: 0.4s;
 }

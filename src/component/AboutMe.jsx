@@ -11,7 +11,7 @@ export const AboutMe = () => {
   let mail = { url: 'mailto:stephcyril.sc@gmail.com', title: 'Envoyer moi un email'};
 
   return (
-    <div className="sectionMboutMe">
+    <div className="sectionMboutMe" id="aboutMe">
       <h1 className='titleName'>Mebenga Atanga Stéphane C.</h1>
       <TypeAnimation
         sequence={['Développeur Fullstack', 1000, 'Développeur de BD', 1000, 'Analyste de données', 1000]}
@@ -24,22 +24,21 @@ export const AboutMe = () => {
         Motivé, ayant une bonne connaissance des méthodes de gestions de projets et un background en devéloppement web conséquent, mon expérience bâti sur près de 5 ans dans les métier du développement m’a permis de découvrir l’univers des progiciels de gestions intégrés et de développer mes connaissances dans ce domaine.
       </p>
 
-        <br />
 
-        <p className='logoSocial'>
-          <a href={github.url} title={github.title} target='new'>
-            <FontAwesomeIcon icon={faGithub} />
-          </a>
-          <a href={linkedin.url} title={linkedin.title} target='new'>
-            <FontAwesomeIcon icon={faLinkedin} />
-          </a>
-          <a href={twitter.url} title={twitter.title} target='new'>
-            <FontAwesomeIcon icon={faTwitter} />
-          </a>
-          <a href={mail.url} title={mail.title}>
-            <FontAwesomeIcon icon={faGoogle} />
-          </a>
-        </p>
+      <p className='logoSocial'>
+        <a href={github.url} title={github.title} target='new'>
+          <FontAwesomeIcon icon={faGithub} />
+        </a>
+        <a href={linkedin.url} title={linkedin.title} target='new'>
+          <FontAwesomeIcon icon={faLinkedin} />
+        </a>
+        <a href={twitter.url} title={twitter.title} target='new'>
+          <FontAwesomeIcon icon={faTwitter} />
+        </a>
+        <a href={mail.url} title={mail.title}>
+          <FontAwesomeIcon icon={faGoogle} />
+        </a>
+      </p>
     </div>
   )
 }

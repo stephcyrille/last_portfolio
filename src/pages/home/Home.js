@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import picture from '../../assets/images/profile.jpg'
+// import picture from '../../assets/images/profile.jpg'
 import { faGithub, faLinkedin, faTwitter, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { faQuoteLeft, faQuoteRight, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
