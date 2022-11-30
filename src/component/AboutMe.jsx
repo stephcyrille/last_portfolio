@@ -14,7 +14,10 @@ export const AboutMe = () => {
     <div className="sectionMboutMe" id="aboutMe">
       <h1 className='titleName'>Mebenga Atanga Stéphane C.</h1>
       <TypeAnimation
-        sequence={['Développeur Fullstack', 1000, 'Développeur de BD', 1000, 'Analyste de données', 1000]}
+        sequence={['Développeur Fullstack', 1000, 
+                  'Développeur de BD', 1000, 
+                  'Intégrateur ERP Odoo', 1000, 
+                  'Analyste de données', 1000]}
                       //  Replacing previous Text
         wrapper="h4"
         repeat={Infinity}
@@ -39,6 +42,7 @@ export const AboutMe = () => {
           <FontAwesomeIcon icon={faGoogle} />
         </a>
       </p>
+      <div id="skills" />
     </div>
   )
 }

@@ -8,8 +8,8 @@ import './header.style.css';
 export const Header = () => {
   return (
     <Navbar bg="light" expand="lg" className="px-5 py-4 fixed-top customNavbar">
-      <Container fluid>
-        <Navbar.Brand href="#">SC Mebenga</Navbar.Brand>
+      <Container>
+        <Navbar.Brand href="#">MASC</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
@@ -18,7 +18,7 @@ export const Header = () => {
             navbarScroll
           >
             <Nav.Link href="#aboutMe">About</Nav.Link>
-            <Nav.Link href="#action2">Compétences</Nav.Link>
+            <Nav.Link href="#skills">Compétences</Nav.Link>
             <Nav.Link href="#action1">Expérience</Nav.Link>
             <Nav.Link href="#action1">Formation</Nav.Link>
           </Nav>

@@ -84,11 +84,18 @@
   .sectionMboutMe {
     margin: 0;
     padding-top: 0;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 70px;
     height: auto !important;
     text-align: center;
+  }
+  .sectionMboutMe p{
+    padding-top: 30px;
+  }
+  
+  .sectionMboutMe h4{
+    padding-top: 20px;
   }
 
   .titleName{

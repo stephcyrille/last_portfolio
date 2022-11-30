@@ -1,0 +1,49 @@
+.sectionSkills{
+  color: white;
+  
+  position: relative;
+  overflow: hidden;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 70px;
+  border-bottom: 1px solid #585d65;
+  z-index: 12;
+  
+  margin: 0;
+  padding-bottom: 70px;
+  overflow: visible;
+  z-index: 11;
+  margin-bottom: 50px;
+}
+
+.sectionSkills h3{
+  margin-bottom: 45px;
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.sectionSkills p{
+  text-align: justify;
+  font-size: 16px;
+}
+
+.programLanguage{
+  display: inherit;
+  text-align: left;
+}
+
+
+
+
+@media (max-width: 720px){
+  .sectionSkills {
+    margin-top: 40px;
+    padding-top: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+    height: auto !important;
+    text-align: center;
+  }
+}
