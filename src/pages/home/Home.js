@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
 // import picture from '../../assets/images/profile.jpg'
-import { faGithub, faLinkedin, faTwitter, faGoogle } from "@fortawesome/free-brands-svg-icons";
-import { faQuoteLeft, faQuoteRight, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import './home.style.css';
+// import { faGithub, faLinkedin, faTwitter, faGoogle } from "@fortawesome/free-brands-svg-icons";
+// import { faQuoteLeft, faQuoteRight, faChevronUp, faChevronDown } from "@fortawesome/free-solid-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import Container from 'react-bootstrap/Container';
+// import Row from 'react-bootstrap/Row';
+// import Col from 'react-bootstrap/Col';
+import styles from './home.module.css';
 import { AboutMe } from '../../component/AboutMe';
 import { Skills } from '../../component/skills/Skills';
 import { Experience } from '../../component/experience/Experience';
@@ -17,10 +17,10 @@ export const Home = (props) => {
   return (
     // <div className="py-4 px-3">
     <div>
-      <div className='wrapper'>
-        <div className="block-wrapper-image">
-          <div className='background-circle-effect'>
-            <div className='block-bckg-image' />
+      <div className={ styles.wrapper }>
+        <div className={ styles.blockWrapperImage }>
+          <div className={ styles.backgroundCircleEffect }>
+            <div className={ styles.blockBckgImage } />
           </div>
         </div>
         

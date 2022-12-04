@@ -2,12 +2,12 @@ import React from 'react'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import './header.style.css';
+import styles from './header.module.css';
 
 
 export const Header = () => {
   return (
-    <Navbar bg="light" expand="lg" className="px-5 py-4 fixed-top customNavbar">
+    <Navbar bg="light" expand="lg" className={`px-5 py-4 fixed-top ${ styles.customNavbar }`}>
       <Container>
         <Navbar.Brand href="#">MASC</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />

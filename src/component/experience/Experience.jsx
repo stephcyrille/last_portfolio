@@ -1,11 +1,11 @@
 import React from 'react';
-import './experience.style.css';
+import styles from './experience.module.css';
 import { ExperienceLine } from './ExperienceLine';
 import { experiences } from '../../data/experienceList';
 
 export const Experience = () => {
   return (
-    <div className="sectionExperience">
+    <div className={ styles.sectionExperience }>
       <div className='row'>
         <div className='col-md-12 col-12 mb-5'>
           <h3 className="mt-0">Experience</h3>

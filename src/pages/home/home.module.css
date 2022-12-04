@@ -17,7 +17,7 @@
   width: 100%;
 }
 
-.block-wrapper-image{
+.blockWrapperImage{
   position: fixed;
   top: 0;
   left: 0;
@@ -26,7 +26,7 @@
   background: #2b2b2b;
 }
 
-.background-circle-effect{
+.backgroundCircleEffect{
   position: absolute;
   top: 0;
   left: 0;
@@ -40,7 +40,7 @@
   -webkit-clip-path: circle(75% at 10% 45%);
 }
 
-.block-bckg-image{
+.blockBckgImage{
   position: absolute;
   left: 0;
   top: 0;
@@ -54,17 +54,22 @@
 
 
 /* Small devices (landscape phones, 576px and up) */
-
 @media (max-width: 720px){
+  .wrapper{
+    position: relative;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
+  }
   .wrapper:before {
     content: unset;
   }
-  .block-wrapper-image {
+  .blockWrapperImage {
     height: 450px;
     position: relative;
     width: 100%;
   }
-  .background-circle-effect {
+  .backgroundCircleEffect {
     clip-path: circle(100% at 50% 0%);
     -webkit-clip-path: circle(100% at 50% 0%);
   }

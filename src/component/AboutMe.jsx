@@ -2,7 +2,7 @@ import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import { faGithub, faLinkedin, faTwitter, faGoogle } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import './about-me.style.css';
+import styles from './aboutMe.module.css';
 
 export const AboutMe = () => {
   let github = { url: 'https://github.com/stephcyrille', title: 'Me trouver sur Github'};
@@ -11,8 +11,8 @@ export const AboutMe = () => {
   let mail = { url: 'mailto:stephcyril.sc@gmail.com', title: 'Envoyer moi un email'};
 
   return (
-    <div className="sectionMboutMe" id="aboutMe">
-      <h1 className='titleName'>Mebenga Atanga Stéphane C.</h1>
+    <div className={ styles.sectionMboutMe } id="aboutMe">
+      <h1 className={ styles.titleName }>Mebenga Atanga Stéphane C.</h1>
       <TypeAnimation
         sequence={['Développeur Fullstack', 1000, 
                   'Développeur de BD', 1000, 
@@ -28,7 +28,7 @@ export const AboutMe = () => {
       </p>
 
 
-      <p className='logoSocial'>
+      <p className={ styles.logoSocial }>
         <a href={github.url} title={github.title} target='new'>
           <FontAwesomeIcon icon={faGithub} />
         </a>

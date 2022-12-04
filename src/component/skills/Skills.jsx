@@ -3,7 +3,7 @@ import React from 'react';
 import "react-circular-progressbar/dist/styles.css";
 import { CircularProgress } from '../gauge/CircularProgress';
 import { LanguageLine } from '../LanguageLine/LanguageLine';
-import './skills.style.css';
+import styles from './skills.module.css';
 // import aws from '../../assets/images/languages/aws.png';
 // import python from '../../assets/images/languages/python.png';
 // import django from '../../assets/images/languages/django.png';
@@ -17,10 +17,9 @@ import './skills.style.css';
 
 
 export const Skills = () => {
-  const percentage = 66;
 
   return (
-    <div className="sectionSkills">
+    <div className={ styles.sectionSkills }>
       <div className='row'>
         <div className='col-md-12 col-12 mb-5'>
           <h3 className="mt-0">Langage de Programmation</h3>

@@ -1,12 +1,13 @@
-import React from 'react'
+import React from 'react';
+import styles from './experienceLine.module.css';
 
 export const ExperienceLine = (props) => {
   const { from, to, job, title, place, tasks } = props;
   return (
-    <div className='col-lg-6 col-12 experienceLine'>
-      <span className='date'>{ from } - { to }</span>
+    <div className={`col-lg-6 col-12 ${ styles.experienceLine }`}>
+      <span className={ styles.date }>{ from } - { to }</span>
       <h4>{ job }</h4>
-      <h5><span className='society'>{ title }</span>, { place }</h5>
+      <h5><span className={ styles.society }>{ title }</span>, { place }</h5>
       <ul>
         { tasks.length > 0 && tasks.map((task, key) => 
           <li key={key}>
