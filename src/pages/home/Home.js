@@ -11,10 +11,8 @@ import { AboutMe } from '../../component/AboutMe';
 import { Skills } from '../../component/skills/Skills';
 import { Experience } from '../../component/experience/Experience';
 
-export const Home = () => {
-  const [count, setCounter] = useState(125);
-  let githubUrl = 'https://github.com/stephcyrille';
-  let githubTitle = 'Me trouver sur Github';
+export const Home = (props) => {
+  // const [count, setCounter] = useState(125);
 
   return (
     // <div className="py-4 px-3">
