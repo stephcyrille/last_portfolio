@@ -24,6 +24,7 @@ export const Experience = () => {
           />
         )}
       </div>
+      <span id='formation' />
     </div>
   )
 }
