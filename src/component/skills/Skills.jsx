@@ -43,7 +43,7 @@ export const Skills = () => {
                <CircularProgress text={"Multitâche"} percent={80} />
             </div>
             <div className='col-4 col-lg-3'>
-               <CircularProgress text={"Ponctualité"} percent={80} />
+               <CircularProgress text={"Ponctuel"} percent={80} />
             </div>
             <div className='col-4 col-lg-3'>
                <CircularProgress text={"Sens de l'initiative"} percent={90} />
@@ -53,6 +53,7 @@ export const Skills = () => {
             </div>
           </div>
         </div>
+        <span id="experience" />
       </div>
     </div>
   )

@@ -9,6 +9,7 @@ import Col from 'react-bootstrap/Col';
 import './home.style.css';
 import { AboutMe } from '../../component/AboutMe';
 import { Skills } from '../../component/skills/Skills';
+import { Experience } from '../../component/experience/Experience';
 
 export const Home = () => {
   const [count, setCounter] = useState(125);
@@ -27,6 +28,7 @@ export const Home = () => {
         
         <AboutMe />
         <Skills />
+        <Experience />
 
 
         {/* <div className="section-about-me">

@@ -19,7 +19,7 @@ export const Header = () => {
           >
             <Nav.Link href="#aboutMe">About</Nav.Link>
             <Nav.Link href="#skills">Compétences</Nav.Link>
-            <Nav.Link href="#action1">Expérience</Nav.Link>
+            <Nav.Link href="#experience">Expérience</Nav.Link>
             <Nav.Link href="#action1">Formation</Nav.Link>
           </Nav>
         </Navbar.Collapse>

@@ -7,13 +7,10 @@
   padding-right: 8%;
   padding-top: 70px;
   border-bottom: 1px solid #585d65;
-  z-index: 12;
-  
   margin: 0;
   padding-bottom: 70px;
   overflow: visible;
   z-index: 11;
-  margin-bottom: 50px;
 }
 
 .sectionSkills h3{
