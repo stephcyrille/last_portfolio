@@ -10,6 +10,7 @@ import styles from './home.module.css';
 import { AboutMe } from '../../component/AboutMe';
 import { Skills } from '../../component/skills/Skills';
 import { Experience } from '../../component/experience/Experience';
+import { Education } from '../../component/education/Education';
 
 export const Home = (props) => {
   // const [count, setCounter] = useState(125);
@@ -27,6 +28,7 @@ export const Home = (props) => {
         <AboutMe />
         <Skills />
         <Experience />
+        <Education />
 
 
         {/* <div className="section-about-me">

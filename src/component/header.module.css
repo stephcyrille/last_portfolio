@@ -1,12 +1,26 @@
 .customNavbar{
   margin: 50px 140px;
   border-radius: 80px;
+  background-color: rgb(221, 75, 45);
+  padding-left: 50px;
+  padding-right: 50px;
 }
+
+.brandLink{
+  color: white !important;
+  font-weight: 600;
+}
+
+.link{
+  color: white !important;
+}
+
 
 @media (max-width: 720px){
   .customNavbar{
     margin: 50px 25px !important;
     border-radius: 30px;
-    background-color: rgba(255, 255, 255, 0) !important;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
   }
 }

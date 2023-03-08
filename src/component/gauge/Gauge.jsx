@@ -9,12 +9,12 @@ export const Gauge = ({props}) => {
       height="20"
       className='img-fluid'
     >
-      <circle cx="10" cy="10" r="6" fill="green"/>
-      <circle cx="30" cy="10" r="6" fill="green"/>
-      <circle cx="50" cy="10" r="6" fill="green"/>
-      <circle cx="70" cy="10" r="6" fill="green"/>
-      <circle cx="90" cy="10" r="6" fill="green"/>
-      <circle cx="110" cy="10" r="6" fill="green"/>
+      <circle cx="30" cy="10" r="6" fill="#37d137"/>
+      <circle cx="50" cy="10" r="6" fill="#37d137"/>
+      <circle cx="10" cy="10" r="6" fill="#37d137"/>
+      <circle cx="70" cy="10" r="6" fill="#37d137"/>
+      <circle cx="90" cy="10" r="6" fill="#37d137"/>
+      <circle cx="110" cy="10" r="6" fill="#37d137"/>
       <circle cx="130" cy="10" r="6" fill="grey"/>
     </svg>
   )

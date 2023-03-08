@@ -1,0 +1,19 @@
+.sectionEducation{
+  color: white; 
+  position: relative;
+  overflow: hidden;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-top: 70px;
+  border-bottom: 1px solid #585d65;
+  margin: 0;
+  padding-bottom: 70px;
+  overflow: visible;
+  z-index: 11;
+}
+
+.sectionEducation h3{
+  font-size: 25px;
+  color: #fff;
+  text-transform: uppercase;
+}

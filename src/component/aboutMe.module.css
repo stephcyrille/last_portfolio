@@ -40,7 +40,7 @@
 .sectionMboutMe h4{
   margin-bottom: 15px;
   font-size: 22px;
-  color: green;
+  color: #37d137;
   text-transform: uppercase;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .sectionMboutMe .logoSocial a:hover{
-  color: green;
+  color: #37d137;
   transition: ease-out;
   transition-duration: 0.4s;
 }

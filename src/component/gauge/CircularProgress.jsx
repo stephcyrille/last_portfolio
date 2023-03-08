@@ -28,7 +28,7 @@ export const CircularProgress = (props) => {
           pathColor: `green`,
           trailColor: '#d6d6d6',
           textColor: '#fff',
-          backgroundColor: '#3e98c7',
+          backgroundColor: '#37d137',
         })}
       />
       <div className='text-center py-2'>{ text }</div>
