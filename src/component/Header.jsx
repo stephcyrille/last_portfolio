@@ -8,7 +8,7 @@ import cv from '../assets/documents/cv.pdf'
 
 export const Header = () => {
   return (
-    <Navbar expand="lg" className={`py-4 fixed-top ${ styles.customNavbar } shadow-lg`}>
+    <Navbar expand="lg" className={`py-4 fixed-top ${ styles.customNavbar } shadow-lg px-lg-4 px-md-4`}>
       <Container>
         <Navbar.Brand className={ styles.brandLink } href="#">MASC</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -20,6 +20,7 @@ export const Header = () => {
             <Nav.Link className={ styles.link } href="#skills">Compétences</Nav.Link>
             <Nav.Link className={ styles.link } href="#experience">Expérience</Nav.Link>
             <Nav.Link className={ styles.link } href="#formation">Formation</Nav.Link>
+            <Nav.Link className={ styles.link } href="#certifications">Certifications</Nav.Link>
           </Nav>
           <Nav
             className="ml-auto"
