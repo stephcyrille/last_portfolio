@@ -17,7 +17,7 @@ export const AboutMe = () => {
         sequence={['Développeur Fullstack', 1000, 
                   'Développeur de BD', 1000, 
                   'Intégrateur ERP Odoo', 1000, 
-                  'Analyste de données', 1000]}
+                  'Data Scientist', 1000]}
                       //  Replacing previous Text
         wrapper="h4"
         repeat={Infinity}

@@ -11,6 +11,7 @@ import { AboutMe } from '../../component/AboutMe';
 import { Skills } from '../../component/skills/Skills';
 import { Experience } from '../../component/experience/Experience';
 import { Education } from '../../component/education/Education';
+import { Certification } from '../../component/certification/Certification';
 
 export const Home = (props) => {
   // const [count, setCounter] = useState(125);
@@ -29,6 +30,7 @@ export const Home = (props) => {
         <Skills />
         <Experience />
         <Education />
+        <Certification />
 
 
         {/* <div className="section-about-me">
